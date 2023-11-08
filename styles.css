@@ -1,0 +1,27 @@
+.rating {
+    display: inline-block;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+  }
+  
+  .rating label:before {
+    content: '\2605';
+    font-size: 2rem;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
